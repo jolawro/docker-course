@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    build: .
+    ports: 
+      - "8080:80"
+    volumes:
+      - /Users/jola/Projects/docker-course/docker/volumeMount/:/usr/local/apache2/htdocs/
